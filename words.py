@@ -13,6 +13,6 @@ nc = 0
 for n in range(len(datos)):
     nc = len(findall('[%s]' % consonantes, datos[n]))   
     if nc > 2:
-  		print(datos[n],nc)	
+  		print(datos[n])	
     nc = 0
 
